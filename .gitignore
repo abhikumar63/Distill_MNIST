@@ -1,0 +1,64 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging/build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Jupyter and notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Editors and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+logs/
+tmp/
+temp/
+
+# Machine learning / experiment outputs
+checkpoints/
+saved_models/
+artifacts/
+runs/
+wandb/
+mlruns/
+lightning_logs/
+tensorboard/
+*.ckpt
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Project-generated results
+results/
+outputs/
+figures/
+plots/
+
+# Local environment files
+.env
+.env.*
+
+
+data/
+results/
